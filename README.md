@@ -15,7 +15,6 @@
 - <a href="#testops">Интеграция с Allure TestOps</a>
 - <a href="#jira">Интеграция с Jira</a>
 - <a href="#telegram">Уведомления в Telegram через бота</a>
-- <a href="#video">Видео отчет запуска тестов (Selenoid)</a>
 
 <a id="stech"></a>
 ## <img width="40" height="40" style="vertical-align:middle" title="Folder" src="media/images/programm.jpg"> Используемый стек технологий и инструментов
@@ -120,13 +119,5 @@ gradle clean test -Denv=main
 
 <a id="telegram"></a>
 <p align="center">
-<img title="Telegram Notifications" src="media/screenshots/Notifiacations.png">
-</p>
-
-
-<a id="video"></a>
-## <img width="40" height="40" style="vertical-align:middle" title="Selenoid" src="media/logo/Selenoid.svg"> Видео отчет запуска тестов (Selenoid)
-
-<p align="center">
-  <img title="Selenoid Video" src="media/gifs/IBS.gif">
+<img title="Telegram Notifications" src="media/screenshots/Notifications.png">
 </p>
