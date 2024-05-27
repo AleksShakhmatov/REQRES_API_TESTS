@@ -7,3 +7,10 @@
 \gradlew
 \gradlew.bat
 \settings.gradle
+.idea/
+.gradle/wrapper
+gradlew
+gradlew.bat
+\.gradle/wrapper
+settings.gradle
+
