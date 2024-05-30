@@ -120,6 +120,9 @@ public class UsersTests extends TestBase {
                         .when()
                         .delete("/users/2")
                         .then()
-                        .spec(noContent204ResponseSpec));
+                        .log().status()
+                        .statusCode(204));
+
+
     }
 }

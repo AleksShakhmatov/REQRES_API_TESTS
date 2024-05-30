@@ -28,11 +28,6 @@ public class Specs {
             .log(BODY)
             .build();
 
-    public static ResponseSpecification noContent204ResponseSpec = new ResponseSpecBuilder()
-            .expectStatusCode(204)
-            .log(STATUS)
-            .build();
-
     public static ResponseSpecification notFound404ResponseSpec = new ResponseSpecBuilder()
             .expectStatusCode(404)
             .log(STATUS)
